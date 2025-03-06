@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ticket {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ticket h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ticket p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.origheader {
+    background-color: #007bff; /* Cool shade of blue */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.origheader h1 {
+    font-family: 'Arial Black', sans-serif; /* Cool font */
+    color: #fff; /* White color */
+    margin: 0;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.origlogout,
+.admin2userlogin {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}

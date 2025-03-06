@@ -1,0 +1,115 @@
+/* Checkout page styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+}
+
+.section-details {
+    margin-bottom: 20px;
+}
+
+.section-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.total-amount {
+    margin-bottom: 20px;
+}
+
+.total-amount h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* checkout_styles.css */
+
+/* Remove bullet points from the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Increase the font size of the headings */
+h1, h2, h3 {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Increase the font size of the paragraph text */
+p {
+    font-size: 18px; /* Adjust the size as needed */
+}
+
+.origheader {
+    background-color: #007bff; /* Cool shade of blue */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.origheader h1 {
+    font-family: 'Arial Black', sans-serif; /* Cool font */
+    color: #fff; /* White color */
+    margin: 0;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.origlogout,
+.admin2userlogin {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
